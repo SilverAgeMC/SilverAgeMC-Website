@@ -1,4 +1,48 @@
 body {
-    padding: 1%;
-    background-color: gray;
+   	padding: 1% 10%;
+
+    background-image: url("https://small.fileditchstuff.me/s11/BJUZDoniyDdjFMyYAJMR.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 200%;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+    
+.info_header {
+  	padding: 0px 1%;
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+}
+    
+.info_box {
+    padding: 1px 1%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+    
+nav {
+   	color: white;
+}
+    
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+	text-decoration: none;
+    color: white;
+}
+
+a:hover {
+	text-decoration: none;
+    color: white;
+}
+
+a:active {
+	text-decoration: none;
+    color: white;
 }
