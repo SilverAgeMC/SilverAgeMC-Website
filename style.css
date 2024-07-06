@@ -27,6 +27,34 @@ nav {
    	color: white;
 }
     
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    
+}
+
+thead {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #ffffff;
+}
+
+thead th {
+    padding: 10px;
+}
+
+tbody tr{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #dddddd;
+    color: white;
+    text-align: center;
+}
+
 a:link {
     text-decoration: none;
     color: white;
@@ -38,8 +66,8 @@ a:visited {
 }
 
 a:hover {
-	text-decoration: none;
-    color: white;
+	text-decoration: underline;
+    color: rgb(214, 214, 214);
 }
 
 a:active {
