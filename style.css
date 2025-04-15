@@ -111,3 +111,15 @@ footer {
 .svgWhite:hover {
     transform: scale(1.1);
 }
+
+.server-details-grid {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    row-gap: 10px;
+    column-gap: 20px;
+}
+
+.server-details-grid a {
+    color: #aaddff;
+    text-decoration: underline;
+}
