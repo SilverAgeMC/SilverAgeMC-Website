@@ -1,4 +1,4 @@
-body {
+html body {
    	padding: 1% 10%;
 
     background-image: url("/assets/bg.webp");
@@ -10,7 +10,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-    
+
 .info_header {
   	padding: 0px 1%;
     background: rgba(0, 0, 0, 0.75);
@@ -73,4 +73,41 @@ a:hover {
 a:active {
 	text-decoration: none;
     color: white;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px 2%;
+    margin-top: auto;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-left p {
+    margin: 5px 0;
+}
+
+.svgWhite {
+    height: 32px;
+    width: 32px;
+    filter: brightness(0) invert(0.85);
+    transition: transform 0.2s ease;
+}
+
+.socialsIcons {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.svgWhite:hover {
+    transform: scale(1.1);
 }
